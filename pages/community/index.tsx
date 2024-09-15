@@ -1,4 +1,8 @@
-const Community = () => {
-    return <div>Community LIST</div>
+import withLayoutBasic from "@/libs/components/layout/LayoutBasic"
+import { NextPage } from "next/types"
+
+const Community:NextPage = () => {
+    return <h1>Community</h1>
 }
-export default Community;
+
+export default  withLayoutBasic(Community)
